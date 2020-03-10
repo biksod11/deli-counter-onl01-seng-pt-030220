@@ -10,7 +10,7 @@ def line(katz_deli)
     end
     puts "current_line"
   end
-
+end
 
 def take_a_number(katz_deli, new_person)
   katz_deli << new_person
@@ -25,4 +25,3 @@ def now_serving(katz_deli)
     katz_deli.shift
   end
 end
-  
